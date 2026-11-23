@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.kjubas.lofi-radio",
+  "name": "Local Lo-Fi Radio",
+  "version": "1.0.0",
+  "author": "Kjubas",
+  "license": "MIT",
+  "description": "Локальный генератор бесконечного Lo-Fi хип-хопа в панели Omarchy.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Lo-Fi Radio",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
